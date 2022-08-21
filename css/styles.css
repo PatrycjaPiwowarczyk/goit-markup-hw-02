@@ -1,26 +1,33 @@
+:root {
+  --color1: #000000;
+  --color2: #212121;
+  --color3: #2196f3;
+  --color4: #757575;
+  --color5: #ffffff;
+  --color6: #2f303a;
+  --color7: #f5f4fa;
+  --color8: #e5e5e5;
+  --color9: rgba(255, 255, 255, 0.6);
+}
+
 body {
-  background-color: #e5e5e5;
+  background-color: var(--color8);
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #212121;
-  position: relative;
-  height: 2349px;
-  width: 1600px;
-  border-radius: 0px; 
+  color: var(--color2);
 }
 
-
 a {
-  color: #212121;
+  color: var(--color2);
 }
 
 a.contact-text1 {
-  color: #757575;
+  color: var(--color4);
 }
 
 a.contact-text2 {
-  color: #757575;
+  color: var(--color4);
 }
 
 a {
@@ -29,17 +36,16 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #2196f3;
+  color: var(--color3);
 }
 
 a:focus {
-  color: #2196f3;
+  color: var(--color3);
 }
 
 a:active {
-  color: #2196f3;
+  color: var(--color3);
 }
-
 
 .logo {
   font-family: "Raleway";
@@ -51,46 +57,66 @@ a:active {
 }
 
 .header-logo {
-  position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
-  
 }
 
 .footer-logo {
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 2157px;
-  
 }
 
 header {
-  position: absolute;
   width: 1600px;
   height: 80px;
-  left: 0px;
-  top: 0px;
-  background-color: #ffffff;
+  background-color: var(--color5);
+  border: 1px solid #eeeeee;
 }
 
 footer {
-  position: absolute;
   width: 1600px;
   height: 252px;
-  left: 0px;
-  top: 2097px;
-  background: #2F303A;
+  background: var(--color6);
 }
 
 .logo1 {
-  color: #2196f3;
+  color: var(--color3);
 }
 
 .logo2 {
-  color: #000000;
+  color: var(--color1);
+}
+
+.logo3 {
+  color: var(--color5);
+}
+
+.address {
+  font-style: normal;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact {
+  color: var(--color9);
+  text-decoration: none;
+}
+
+.street {
+  color: var(--color5);
+}
+
+.footer-contact:hover {
+  text-decoration: underline;
+  color: var(--color3);
+}
+
+.footer-contact:focus {
+  color: var(--color3);
+}
+
+.footer-contact:active {
+  color: var(--color3);
 }
 
 ul {
@@ -100,12 +126,11 @@ ul {
 .header-text {
   font-style: medium;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
 }
 
 .nav1 {
-  position: absolute;
   width: 53px;
   height: 16px;
   left: 453px;
@@ -113,7 +138,6 @@ ul {
 }
 
 .nav2 {
-  position: absolute;  
   width: 56px;
   height: 16px;
   left: 552px;
@@ -121,7 +145,6 @@ ul {
 }
 
 .nav3 {
-  position: absolute;
   width: 51px;
   height: 16px;
   left: 656px;
@@ -129,7 +152,6 @@ ul {
 }
 
 .contact-text1 {
-  position: absolute;
   width: 135px;
   height: 16px;
   left: 1078px;
@@ -137,7 +159,6 @@ ul {
 }
 
 .contact-text2 {
-  position: absolute;
   width: 110px;
   height: 16px;
   left: 1263px;
@@ -145,16 +166,14 @@ ul {
 }
 
 .box1 {
-  position: absolute;
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2F303A;
+  background: var(--color6);
 }
 
 h1 {
-  position: absolute;
   align: center;
   width: 696px;
   height: 120px;
@@ -162,24 +181,24 @@ h1 {
   top: 280px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 116%;
   text-align: center;
   vertical-align: top;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--color5);
 }
 
 .button1 {
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
+  background: var(--color3);
   border-radius: 4px;
-  border-color: #2196f3;
+  border-color: var(--color3);
   box-shadow: 0px 4px 4px 0px #00000026;
+  cursor: pointer;
 }
 
 .button1-text {
@@ -188,21 +207,20 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
-  font-style: Bold
+  font-style: Bold;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color5);
   align: center;
 }
 
-.box23 {height: 769px;
+.box23 {
+  height: 769px;
   width: 1600px;
   left: 0px;
   top: 680px;
 }
 
-
 .box2 {
-  position: absolute;
   width: 1170px;
   height: 101px;
   left: 215px;
@@ -213,7 +231,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -222,7 +240,7 @@ h1 {
   width: 270px;
   height: 101px;
   left: 215px;
-  top: 774px; 
+  top: 774px;
 }
 
 .feature2 {
@@ -244,16 +262,15 @@ h1 {
   height: 101px;
   left: 1115px;
   top: 774px;
-  
 }
 
 .box2 p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color4);
 }
 
 .box3 {
@@ -261,22 +278,19 @@ h1 {
   height: 386px;
   left: 215px;
   top: 969px;
-  
 }
 
 h2 {
-  position: absolute;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .h2-text1 {
   white-space: nowrap;
-  position: absolute;
   width: 352px;
   height: 42px;
   left: 624px;
@@ -284,7 +298,6 @@ h2 {
 }
 
 .box3-img1 {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
@@ -293,7 +306,6 @@ h2 {
 }
 
 .box3-img2 {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
@@ -301,25 +313,22 @@ h2 {
 }
 
 .box3-img3 {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 1015px;
   top: 1061px;
 }
 
-.box4{
-  position: absolute;
+.box4 {
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
-  background: #F5F4FA;
+  background: var(--color7);
 }
 
 .h2-text2 {
   white-space: nowrap;
-  position: absolute;
   width: 210px;
   height: 42px;
   left: 695px;
@@ -329,40 +338,145 @@ h2 {
 .box4-worker {
   width: 270px;
   height: 368px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--color5);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-
-.w1 { 
-  position: absolute;
+.w1 {
   width: 270px;
   height: 368px;
   left: 215px;
   top: 1635px;
 }
 
-.w2 { 
-  position: absolute;
+.w2 {
   width: 270px;
   height: 368px;
   left: 515px;
   top: 1635px;
 }
 
-.w3 { 
-  position: absolute;
+.w3 {
   width: 270px;
   height: 368px;
   left: 815px;
   top: 1635px;
 }
 
-.w4 { 
-  position: absolute;
+.w4 {
   width: 270px;
   height: 368px;
   left: 1115px;
   top: 1635px;
+}
+
+.name {
+  font-style: medium;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+
+.job {
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color4);
+}
+
+.buttons {
+  background: var(--color7);
+  border-radius: 4px;
+  border-color: var(--color7);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background: var(--color3);
+  color: var(--color5);
+  border-color: var(--color3);
+}
+
+.buttons:focus {
+  background: var(--color3);
+  color: var(--color5);
+  border-color: var(--color3);
+}
+
+.b1 {
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+}
+
+.b2 {
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+}
+
+.b3 {
+  width: 114px;
+  height: 38px;
+  left: 740px;
+  top: 174px;
+}
+
+.b4 {
+  width: 91px;
+  height: 38px;
+  left: 862px;
+  top: 174px;
+}
+
+.b5 {
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+}
+
+.project {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  background: var(--color5);
+  border: 1px solid #eeeeee;
+}
+
+.project-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: var(--color2);
+}
+
+.project-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.03em;
+  color: var(--color4);
+}
+
+.portfolio-main {
+  background-color: var(--color5);
 }
