@@ -1,21 +1,20 @@
 :root {
-  --color1: #000000;
-  --color2: #212121;
-  --color3: #2196f3;
-  --color4: #757575;
-  --color5: #ffffff;
-  --color6: #2f303a;
-  --color7: #f5f4fa;
-  --color8: #e5e5e5;
-  --color9: rgba(255, 255, 255, 0.6);
+  --just-black: #000000;
+  --light-black: #212121;
+  --hover-blue: #2196f3;
+  --light-gray: #757575;
+  --just-white: #ffffff;
+  --just-gray: #2f303a;
+  --background-light-gray: #f5f4fa;
+  --background-gray: #e5e5e5;
 }
 
 body {
-  background-color: var(--color8);
+  background-color: var(--background-gray);
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: var(--color2);
+  color: var(--light-black);
 }
 
 .nav-text {
@@ -23,7 +22,7 @@ body {
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0.02em;
-  color: var(--color2);
+  color: var(--light-black);
 }
 
 .contact-text {
@@ -31,26 +30,26 @@ body {
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0.02em;
-  color: var(--color4);
+  color: var(--light-gray);
 }
 
 .nav-text:hover {
-  color: var(--color3);
+  color: var(--hover-blue);
   text-decoration: underline;
 }
 
 .nav-text:focus {
-  color: var(--color3);
+  color: var(--hover-blue);
   text-decoration: underline;
 }
 
 .contact-text:hover {
-  color: var(--color3);
+  color: var(--hover-blue);
   text-decoration: underline;
 }
 
 .contact-text:focus {
-  color: var(--color3);
+  color: var(--hover-blue);
   text-decoration: underline;
 }
 
@@ -78,26 +77,26 @@ body {
 header {
   width: 1600px;
   height: 80px;
-  background-color: var(--color5);
+  background-color: var(--just-white);
   border: 1px solid #eeeeee;
 }
 
 footer {
   width: 1600px;
   height: 252px;
-  background: var(--color6);
+  background: var(--just-gray);
 }
 
 .logo1 {
-  color: var(--color3);
+  color: var(--hover-blue);
 }
 
 .logo2 {
-  color: var(--color1);
+  color: var(just-black);
 }
 
 .logo3 {
-  color: var(--color5);
+  color: var(--just-white);
 }
 
 .address {
@@ -107,25 +106,25 @@ footer {
 }
 
 .footer-contact {
-  color: var(--color9);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
 .street {
-  color: var(--color5);
+  color: var(--just-white);
 }
 
 .footer-contact:hover {
   text-decoration: underline;
-  color: var(--color3);
+  color: var(--hover-blue);
 }
 
 .footer-contact:focus {
-  color: var(--color3);
+  color: var(--hover-blue);
 }
 
 .footer-contact:active {
-  color: var(--color3);
+  color: var(--hover-blue);
 }
 
 .list {
@@ -143,7 +142,7 @@ footer {
   vertical-align: top;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color5);
+  color: var(--just-white);
 }
 
 .button1 {
@@ -151,9 +150,9 @@ footer {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: var(--color3);
+  background: var(--hover-blue);
   border-radius: 4px;
-  border-color: var(--color3);
+  border-color: var(--hover-blue);
   box-shadow: 0px 4px 4px 0px #00000026;
   cursor: pointer;
 }
@@ -166,18 +165,18 @@ footer {
   font-size: 16px;
   font-style: Bold;
   letter-spacing: 0.06em;
-  color: var(--color5);
+  color: var(--just-white);
   align: center;
 }
 
-.feature-section {
+.text-section {
   width: 1170px;
   height: 101px;
   left: 215px;
   top: 774px;
 }
 
-.feature-heading {
+.text-heading {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -186,49 +185,41 @@ footer {
   text-transform: uppercase;
 }
 
-.feature1 {
+.text1 {
   width: 270px;
   height: 101px;
-  left: 215px;
-  top: 774px;
 }
 
-.feature2 {
+.text2 {
   width: 270px;
   height: 101px;
-  left: 515px;
-  top: 774px;
 }
 
-.feature3 {
+.text3 {
   width: 270px;
   height: 101px;
-  left: 815px;
-  top: 774px;
 }
 
-.feature4 {
+.text4 {
   width: 270px;
   height: 101px;
-  left: 1115px;
-  top: 774px;
 }
 
-.feature-section p {
+.text-section p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 146%;
   letter-spacing: 0.03em;
-  color: var(--color4);
+  color: var(--light-gray);
 }
 
-.services-section {
+.white-section {
   width: 1170px;
   height: 386px;
 }
 
-.services-heading {
+.h2-heading {
   white-space: nowrap;
   width: 352px;
   height: 42px;
@@ -246,15 +237,15 @@ footer {
   mix-blend-mode: normal;
 }
 
-.team-section {
+.gray-section {
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
-  background: var(--color7);
+  background: var(--background-light-gray);
 }
 
-.team-section-heading {
+.gray-section-heading {
   white-space: nowrap;
   width: 210px;
   height: 42px;
@@ -268,16 +259,15 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.team-section-worker {
+.gray-section-box {
   width: 270px;
   height: 368px;
-  background: var(--color5);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--just-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.name {
+.photo-description {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -287,68 +277,67 @@ footer {
   letter-spacing: 3%;
 }
 
-.job {
+.additional-photo-description {
   font-size: 16px;
   line-height: 100%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--color4);
+  color: var(--light-gray);
 }
 
 .buttons {
-  background: var(--color7);
+  background: var(--background-light-gray);
   border-radius: 4px;
-  border-color: var(--color7);
+  border-color: var(--background-light-gray);
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
   text-align: center;
   letter-spacing: 0.03em;
   font-style: normal;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
 .buttons:hover {
-  background: var(--color3);
-  color: var(--color5);
-  border-color: var(--color3);
+  background: var(--hover-blue);
+  color: var(--just-white);
+  border-color: var(--hover-blue);
 }
 
 .buttons:focus {
-  background: var(--color3);
-  color: var(--color5);
-  border-color: var(--color3);
+  background: var(--hover-blue);
+  color: var(--just-white);
+  border-color: var(--hover-blue);
 }
 
-.project {
+.images-section {
   box-sizing: border-box;
   width: 370px;
   height: 404px;
-  background: var(--color5);
+  background: var(--just-white);
   border: 1px solid #eeeeee;
 }
 
-.project-name {
+.image-description {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
-  color: var(--color2);
+  color: var(--light-black);
 }
 
-.project-type {
+.additional-image-description {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 188%;
   letter-spacing: 0.03em;
-  color: var(--color4);
+  color: var(--light-gray);
 }
 
 .portfolio-main {
-  background-color: var(--color5);
+  background-color: var(--just-white);
   width: 1600px;
 }
