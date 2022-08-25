@@ -25,12 +25,26 @@ body {
   color: var(--light-black);
 }
 
+.current-page-nav {
+  color: var(--hover-blue);
+}
+
 .contact-text {
   text-decoration: none;
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0.02em;
   color: var(--light-gray);
+}
+
+.contact-text:hover {
+  color: var(--hover-blue);
+  text-decoration: underline;
+}
+
+.contact-text:focus {
+  color: var(--hover-blue);
+  text-decoration: underline;
 }
 
 .nav-text:hover {
@@ -59,7 +73,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 3%;
-  position: absolute;
 }
 
 .header-logo {
@@ -92,7 +105,7 @@ footer {
 }
 
 .logo2 {
-  color: var(just-black);
+  color: var(--just-black);
 }
 
 .logo3 {
