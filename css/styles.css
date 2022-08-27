@@ -87,16 +87,14 @@ body {
   text-decoration: none;
 }
 
-header {
+.header {
   width: 1600px;
-  height: 80px;
   background-color: var(--just-white);
   border: 1px solid #eeeeee;
 }
 
-footer {
+.footer {
   width: 1600px;
-  height: 252px;
   background: var(--just-gray);
 }
 
@@ -182,13 +180,6 @@ footer {
   align: center;
 }
 
-.text-section {
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-}
-
 .text-heading {
   font-style: normal;
   font-weight: 700;
@@ -198,27 +189,15 @@ footer {
   text-transform: uppercase;
 }
 
-.text1 {
-  width: 270px;
-  height: 101px;
-}
-
-.text2 {
-  width: 270px;
-  height: 101px;
-}
-
-.text3 {
-  width: 270px;
-  height: 101px;
-}
-
+.text1,
+.text2,
+.text3,
 .text4 {
   width: 270px;
   height: 101px;
 }
 
-.text-section p {
+.text-section .text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -229,7 +208,6 @@ footer {
 
 .white-section {
   width: 1170px;
-  height: 386px;
 }
 
 .h2-heading {
@@ -252,7 +230,6 @@ footer {
 
 .gray-section {
   width: 1600px;
-  height: 648px;
   left: 0px;
   top: 1449px;
   background: var(--background-light-gray);
@@ -327,7 +304,6 @@ footer {
 .images-section {
   box-sizing: border-box;
   width: 370px;
-  height: 404px;
   background: var(--just-white);
   border: 1px solid #eeeeee;
 }
